@@ -91,7 +91,7 @@ button.signup {
 
 .pics-and-info {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -114,4 +114,59 @@ button.signup {
 
 .info {
     width: 100px;
+}
+
+.inspirational-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #d8d8d8;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1F2937;
+    width: 700px;
+}
+
+.person {
+    align-self: flex-end;
+}
+
+.call-content {
+    background: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 70px 150px;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+.call-title-and-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.call-text {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.call-button {
+    margin-left: auto;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border-color: white;
 }
