@@ -1,26 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header-content {
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    padding: 10px 150px;
+    justify-content: flex-end;
 }
 
 .header-logo {
     color:#F9FAF8;
     font-size: 24px;
-    
+    margin-right: auto;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    gap: 8px;
+    gap: 15px;
 }
 
 a {
@@ -32,18 +36,39 @@ a {
 .subheader-content {
     background-color: #1F2937;
     display: flex;
+    padding: 100px 150px;
+    gap: 50px;
 }
 
 .header-extra-left {
     display: flex;
     flex-direction: column;
+    gap: 8px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.signup {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 8px;
 }
 
 .header-extra-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
-    width: 300px;
-    height: 200px;
+    background-color: darkgray;
+    width: 800px;
+    height: auto;
 }
