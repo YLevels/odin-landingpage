@@ -170,3 +170,13 @@ button.signup {
     border-radius: 8px;
     border-color: white;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
